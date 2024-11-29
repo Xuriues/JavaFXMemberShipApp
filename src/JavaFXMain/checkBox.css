@@ -1,0 +1,11 @@
+#ocheck, #scheck, #lcheck {
+		-fx-pref-height: 100;
+		-fx-padding: 10;
+		-fx-font: 16 "Sans-serif";
+}
+#ocheck:selected .box, #scheck:selected .box , #lcheck:selected .box {
+		-fx-background-color: #243E36;
+}
+#ocheck:selected .mark, #scheck:selected .mark , #lcheck:selected .mark {
+		-fx-background-color: white;
+}

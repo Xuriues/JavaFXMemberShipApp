@@ -1,0 +1,148 @@
+/* ModifyMemberFX */
+/* ManageMemberFX */
+#idVPane, #nameVPane, #categoryVPane,#hPaneBtn,#itemsVPane {
+	-fx-alignment: center;
+	-fx-spacing: 10;
+	-fx-padding: 15 15 15 15;
+	-fx-background-color: #F1F7ED;
+	
+}
+#modifyHeaderLbl {
+	-fx-pref-height: 35;
+	-fx-font: 24 "Sans-serif";
+	-fx-padding: 10 10 10 10;
+}
+#btnDelete, #btnUpdate {
+	-fx-pref-width: 100;
+	-fx-background-color: #7CA982;
+	-fx-text-fill: white;
+	-fx-font: 14px "Sans-serif";
+}
+#managePane{
+	-fx-background-color: #F1F7ED;
+	-fx-alignment: top_center;
+	-fx-spacing: 30;
+}
+#tableVB {
+	-fx-pref-height: 1000;
+	
+}
+#filterPane {
+	-fx-spacing: 10;
+	-fx-padding: 0 10 10 10;
+	-fx-alignment: center;
+}
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
+
+#btnManageTable {
+	-fx-background-color: #7CA982;
+	-fx-text-fill: white;
+	-fx-cursor:pointer;
+}
+
+#btnManageTable:hover {
+	 -fx-background-color: linear-gradient(#e0eec6, #9A842B);
+}
+#btnManageTable:focused {
+	-fx-background-color: #243e36;
+}
+
+/* Main.java */
+#hvb {
+	-fx-pref-width: 250;
+	-fx-spacing: 30;
+	-fx-pref-height: 150;
+	-fx-background-color: #243E36;
+	-fx-alignment: center;
+}
+#vbPane {
+	-fx-pref-width: 250;
+	-fx-spacing: 10;
+	-fx-background-color: #7CA982;
+	-fx-alignment: top_center;
+	-fx-padding: 100 0 10 0;
+}
+#mainHeader{
+	-fx-text-fill: white;
+	-fx-font: 16 "Consolas";
+}
+#vAll{
+	-fx-background-color: #F1F7ED;
+	-fx-alignment: top_center;
+	-fx-spacing: 30;
+	/*-fx-base: #90AFC5; */
+} 
+#cBox {
+	-fx-background-color: white;
+	-fx-alignment: center;
+}
+
+
+/* AddMemberFX */
+#addPane {
+	-fx-background-color: #F1F7ED;
+	-fx-alignment: top_center;
+	-fx-spacing: 30;
+	
+}
+#mainThingForAdd {
+	-fx-background-color: #edf0eb;
+	-fx-alignment: center;
+	-fx-spacing: 10;
+	-fx-padding: 20 100 20 100;
+}
+#categoryMenu {
+	-fx-pref-width: 1200;
+	-fx-font: 16px "Sans-serif";
+}
+#HBbtn{
+	-fx-alignment: center;
+	-fx-spacing: 10;
+}
+#resetBtn, #addBtn {
+	-fx-pref-width: 120;
+	-fx-background-color: #7CA982;
+	-fx-text-fill: white;
+	-fx-font: 14px "Sans-serif";
+}
+
+#resetBtn:hover, #addBtn:hover, #btnUpdate:hover, #btnDelete:hover {
+     -fx-border-color: black;
+	 -fx-background-color: linear-gradient(#e0eec6, #9A842B);
+}
+#tfSelected,#tfNameAdd,#categoryTf,#nameTf,#idTf {
+	-fx-font: 16px "Sans-serif";
+}
+#taSelected {
+	-fx-font: 14px "Sans-serif";
+	-fx-pref-width: 1200;
+}
+
+
+/* Text Area */
+#viewAllOutput,#viewCateOutput {
+	-fx-font: 18 "Consolas";
+	-fx-pref-height: 1000;
+}
+/* Label header */
+#viewHeader, #viewHeadCate, #addHeader, #manageHeader {	
+	-fx-pref-height: 70;
+	-fx-font: 32 "Sans-serif";
+	-fx-padding: 50 10 32.5 10;
+}
+
+/*  Labels */
+#lbName, #lbCategory, #lbSelected, #filterLabel, #idLbl,#nameLbl,#categoryLbl,#itemLbl{
+	-fx-font: 17 "Sans-serif";
+	-fx-alginment: center;
+}
+
+/* Table View */
+.table-view .table-cell{
+   -fx-font: 13 "Consolas";  
+   -fx-alignment: center;      
+
+}

@@ -1,4 +1,5 @@
-package project1;
+package classOfProgram;
+
 
 public class Student extends Member{
 	private String school;

@@ -1,4 +1,5 @@
-package project1;
+package classOfProgram;
+
 
 public abstract class Member {
 	private String id;
